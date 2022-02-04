@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 1300px;
+    
+    background-image: url(../img/main.jpg);
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-image: url(../img/main.jpg);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    border-bottom: white solid 2px;
+    margin-bottom: 50px;
+}
+header{
+    margin-top: 10px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+header a:hover{
+    color: rgb(105, 14, 42);
+    transform: scale(1.2);
+}
+footer img{
+  width: 40px;
+  height: 40px;
+}
+footer{
+  text-align: center;
+  margin-top: 30px;
+}
+.catalog{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+.product-img{
+    width: 400px;
+    height: 400px;
+}
+.product-img:hover{
+  transform: scale(0.9);
+}
+.tri-box{
+    display: flex;  
+    margin-top: 70px;
+}
+.product{
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    background-color: #d4cbcd;
+    font-size: 15px;
+}
+.tagline{
+  font-family: 'Marck Script', cursive;
+  display: flex;
+  font-size: 25px;
+  width: 1250px;
+  margin: 0 auto;
+  font-size: 40px;
+}
+.tagline img{
+  justify-content: flex-end;
+  margin-left: 150px;
+}
+.tagline p{
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.product-img{
+  margin-bottom: 0px;
+}

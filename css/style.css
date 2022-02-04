@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 1300px;
+    
+    background-image: url(../img/main.jpg);
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-image: url(../img/main.jpg);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    border-bottom: white solid 2px;
+    margin-bottom: 50px;
+}
+header{
+    margin-top: 10px;
+    height: 750px;
+    background-image: url(../img/1642031617_2-abrakadabra-fun-p-deserti-fon-2.jpg);
+    background-position:bottom;
+    background-size: 1300px ;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+header a:hover{
+    color: rgb(105, 14, 42);
+    transform: scale(1.2);
+}
+.one{
+    background-image: url(../img/main.jpg);
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.quote{
+    padding: 100px;
+
+}
+.two{
+  margin-top: 50px;  
+}
+.catalog{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-bottom: 30px ;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.catalog img{
+    width: 350px;
+    height: 350px;
+}
+.catalog img:hover{
+    transform: scale(1.2);
+}
+.human{
+    width: 70px;
+    height: 70px;
+}
+.human:hover{
+    transform: scale(1.2);
+}
+.reviews{
+    display: flex;
+    margin-bottom: 40px;
+    border-bottom: solid white 1px;
+}
+.human-text{
+    text-align: justify;
+    padding-left: 100px;
+}
+.tri{
+    width: 1000px;
+    margin: 0 auto;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
